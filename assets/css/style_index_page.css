@@ -1,0 +1,117 @@
+ .text-block_banner_01 {
+        position: absolute;
+        font-family:Impact,;
+        top: 60px;
+        left: 70px;
+        color: rgb(0, 255, 229);
+        }
+
+    .text-block_banner_02 {
+        position: absolute;
+        font-family:Impact,;
+        top: 100px;
+        left: 75px;
+        color: rgb(0, 255, 229);
+        }    
+
+        .text-block_banner_03_en {
+            position: absolute;
+            font-family:Impact,;
+            top: 45px;
+            left: 40px;
+            color: rgb(0, 255, 229);
+            }  
+
+     
+                .text-block_select_language {
+                    position:absolute;
+                    top:130px;
+                    left: 50px;
+                    color: rgb(0, 255, 229);
+                    text-align: left;	
+                    width: auto;
+                    height: auto;    
+                    }   
+                    
+                    .text-block_select_playlist {
+                      position:absolute;
+                      top:180px;
+                      left: 170px;
+                      color: rgb(0, 255, 229);
+                      text-align: left;	
+                      width: auto;
+                      height: auto;    
+                      }   
+                    
+                    .text-block_first_demo {
+                        position:relative;
+                        top: 0mm;
+                        right: 0mm;
+                        color: rgb(0, 255, 229);
+                        text-align: left;	
+                        width: auto;
+                        height: auto;    
+                        }
+                        
+                        .text-block_second_demo {
+                            position:relative;
+                            top: 185mm;
+                            right: 0mm;
+                            color: rgb(0, 255, 229);
+                            text-align: left;	
+                            width: auto;
+                            height: auto;    
+                            }   
+
+                            .text-block_third_demo {
+                              position:relative;
+                              top: 370mm;
+                              right: 0mm;
+                              text-align: left;	
+                              width: auto;
+                              height: auto;    
+                              } 
+                          
+                            
+                            /* Slideshow container */
+                            .slideshow-container {
+                              position:absolute;                              
+                              }
+                            
+                            /* Caption text */
+                            .text {                              
+                              font-size: 9mm;                      
+                              position:absolute;
+                              top: -690mm;
+                              right: 55mm;
+                              width: auto;
+                              text-align:left;
+                              padding: 10mm;
+                              }
+                            
+                            /* Number text (1/3 etc) */
+                          
+                            
+                            /* The dots/bullets/indicators */
+                            
+                            
+                            .active {
+                              background-color: #378b49;
+                            }
+                            
+                            /* Fading animation */
+                            .fade {
+                              animation-name: fade;
+                              animation-duration: 2s;
+                            }
+                            
+                            @keyframes fade {
+                              from {opacity:0.5} 
+                              to {opacity:1}
+                            }
+                            
+                            /* On smaller screens, decrease text size */
+                            @media only screen and (max-width: 300px) {
+                              .text {font-size: 11px}
+                            }                            
+
